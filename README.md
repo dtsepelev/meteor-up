@@ -22,6 +22,15 @@ To automatically get and renew Let's encrypt certificates for your app you will 
 }
 ```
 
+To configure a SAN certificate for multiple domains list the base domain first and separate each additional subdomain with only a comma:
+
+```js
+"letsEncrypt": {
+  "domain": "myapp.com,www.myapp.com,mmm.myapp.com",
+  "email": "johndoe@myapp.com"
+}
+```
+
 If you're updating your existing project first you will need to update your setup environment:
 
     mupx-letsencrypt setup
