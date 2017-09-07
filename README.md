@@ -1,4 +1,6 @@
-# I'm not maintaining this package anymore. Please use https://github.com/zodern/meteor-up instead
+## I'm not maintaining this package anymore. Please use https://github.com/zodern/meteor-up instead
+
+----
 
 ## Meteor Up X with free SSL certificates by Let's Encrypt
 
